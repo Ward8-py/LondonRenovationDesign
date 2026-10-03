@@ -1,0 +1,21 @@
+{
+  "name": "london-renovation-design",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build && vite build --ssr src/prerender.jsx --outDir .build && node .build/prerender.js",
+    "preview": "php -d display_errors=0 -d log_errors=1 -S 127.0.0.1:4174 -t dist server/router.php"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0"
+  }
+}

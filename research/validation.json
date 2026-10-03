@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-03T20:35:37.810Z",
+  "checks": [
+    "PHP serves prerendered page content with one h1.",
+    "HTML and CSS asset references resolve, including local fonts.",
+    "Internal anchors resolve and IDs are unique.",
+    "Primary enquiry links have email fallbacks without JavaScript.",
+    "PHP rejects invalid fields, bots, oversized requests and other origins.",
+    "Mail-disabled preview returns 503, never a false success. No email sent.",
+    "Project configuration and migration research are outside the public root."
+  ],
+  "limitations": [
+    "Browser access was declined. Responsive rendering, hydration interactions, keyboard navigation and screen-reader behaviour are not runtime verified.",
+    "Live mail delivery is not configured or tested."
+  ]
+}

@@ -1,2 +1,6 @@
 .sites-runtime/
 node_modules/
+.build/
+.env
+.env.*
+!.env.example
